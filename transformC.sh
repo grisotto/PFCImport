@@ -1,0 +1,1 @@
+sed 's/.*\[\[\[\(.*\),\(.*\)\],\[\(.*\),.*\],.*\[.*,\(.*\)\],\[.*\[.*"name": "\([0-9]\+\)\.\([0-9]\+\)","card":\(.*\),"points.*,"avgwidth":\(.*\),"avgheight":\(.*\),}.*/c=GET_CELL(h1,\5,\6);\nc->xini = \1;\nc->yini = \2;\nc->xfim = \3;\nc->yfim = \4;\nc->card = \7;\nc->larguraMedia = \8;\nc->alturaMedia = \9;\n/' -i $1 

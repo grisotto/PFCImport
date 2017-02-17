@@ -3,7 +3,6 @@
 #include <time.h>
 #include <math.h>
 #include <float.h>
-#include <string>
 #include "Dataset.h"
 
 
@@ -43,6 +42,14 @@ struct Envelope {
 
 
 typedef struct Envelope Envelope;
+
+//const limite = 0.8;
+//AQUIVAIOLIMITE
+
+
+// char *datasetName = ;
+
+
 
 
 const double epsilon = 1e-7;
@@ -178,7 +185,7 @@ double histogram_search_hist(histogram *original, Envelope query){
 			}
 
 	}
-	printf("yyfim:%d\n", yyfim);
+	// printf("yyfim:%d\n", yyfim);
 
 
 /*
@@ -272,56 +279,12 @@ histogram* metodoSimples(histogram *original, int modo, int xinicial,
 
 //ainda nao esta implementada
 //quando chegar a h1 e o query,
-void print_hist_envelope(histogram *h1, std::string nome, Envelope env) {
-	char filename[100];
-
-	sprintf(filename, "%s-histograma.geojson", nome);
-	FILE *f = fopen(filename, "wb");
-	if (f == NULL) {
-		perror("Error printing histogram");
-		return;
-	}
-
-	fprintf(f, "{'type': 'FeatureCollection', 'features': [\n");
-
-
-
-	for (int x = 0; x < h1->qtd_colunas; x++) {
-		for (int y = 0; y < h1->qtd_linhas ; y++) {
-
-			celula *c = GET_CELL(h1, x, y);
-
-//			doubleEqual();
-			fprintf(f,
-					"{\"type\": \"Feature\", \"geometry\": {\"type\": \"Polygon\", \"coordinates\": [[");
-			fprintf(f, "[%f, %f],", c->xini, c->yini);
-			fprintf(f, "[%f, %f],", c->xfim, c->yini);
-			fprintf(f, "[%f, %f],", c->xfim, c->yfim);
-			fprintf(f, "[%f, %f],", c->xini, c->yfim);
-			fprintf(f, "[%f, %f]", c->xini, c->yini);
-			fprintf(f, "]]}, 'properties': {");
-			fprintf(f, "\"name\": \"%d.%d\",", x, y);
-
-			fprintf(f, "\"card\": %f,", c->card);
-			fprintf(f, "\"points\": 0.000000,");
-			fprintf(f, "\"place\": 0,");
-			fprintf(f, "\"avgwidth\": %f,", c->larguraMedia);
-			fprintf(f, "\"avgheight\": %f,", c->alturaMedia);
-
-			fprintf(f, "}},\n");
-
-		}
-	}
-
-	fprintf(f, "]}\n");
-	fclose(f);
-}
 
 
 void print_hist(histogram *h1, char nome) {
 	char filename[100];
 
-	sprintf(filename, "%c-histograma.geojson", nome);
+	sprintf(filename, "hist-%s.shp-%dx%d-%.2f-RG.geojson", datasetName, h1->qtd_colunas, h1->qtd_linhas, limite);
 	FILE *f = fopen(filename, "wb");
 	if (f == NULL) {
 		perror("Error printing histogram");
@@ -457,7 +420,7 @@ histogram* metodoSimples(histogram *original, int modo, int xinicial,
 				contCelzero++;
 
 		}
-		printf("Antes somaMedias: %f\n", somaMedias);
+		// printf("Antes somaMedias: %f\n", somaMedias);
 		somaMedias = somaMedias
 				/ ((original->qtd_colunas - contCelzero) == 0 ?
 						1 : (original->qtd_colunas - contCelzero));
@@ -465,7 +428,7 @@ histogram* metodoSimples(histogram *original, int modo, int xinicial,
 	//	printf("Dps somaMedias: %f\n", somaMedias);
 
 		//Verifico se a soma das medias ficou => 80% da comprimento da dimensão da celula
-		if (somaMedias >= (limitanteAltura * 0.8) || somaMedias == 0) {
+		if (somaMedias >= (limitanteAltura * limite) || somaMedias == 0) {
 
 			for (int k = 0; k < original->qtd_colunas; ++k) {
 
@@ -574,7 +537,7 @@ histogram* metodoSimples(histogram *original, int modo, int xinicial,
 	//	printf("Dps somaMedias: %f\n", somaMedias);
 
 		//Verifico se a soma das medias ficou >> 80% da comprimento da dimensão da celula
-		if (somaMedias >= (limitanteLargura * 0.8) || somaMedias == 0) {
+		if (somaMedias >= (limitanteLargura * limite) || somaMedias == 0) {
 
 			for (int k = 0; k < original->qtd_linhas; ++k) {
 
@@ -714,7 +677,7 @@ int main() {
 //	printCelula(h1);
 
 	printf("\ninicio\n");
-/*
+
 
 //	//Linha
 	int merge = MaxCol;
@@ -724,7 +687,7 @@ int main() {
 	for (int cont = 0; cont < qtd_lin; cont++) {
 		h1 = metodoSimples(h1, 0, xinicial, 0);
 
-		printf("qtd: %d \n", h1->qtd_linhas);
+		// printf("qtd: %d \n", h1->qtd_linhas);
 
 		if (h1->qtd_linhas != merge) {
 
@@ -748,7 +711,7 @@ int main() {
 	for (int cont = 0; cont < qtd_col; cont++) {
 		h1 = metodoSimples(h1, 1, 0, yinicial);
 
-		printf("qtd: %d \n", h1->qtd_colunas);
+		// printf("qtd: %d \n", h1->qtd_colunas);
 
 		if (h1->qtd_colunas != merge) {
 
@@ -763,18 +726,24 @@ int main() {
 
 	}
 
-*/
+
 	ValidaQtdObjetos(h1);
 
 	print_hist(h1, 'D');
 	//fazer a consulta
 	int qtd = 500;
 	//tenho que ler o arquivo
+	char filename1[100];
+
+	// sprintf(filename, "hist-%s.shp-%dx%d-%.2f-RG.geojson", datasetName, MaxX, MaxY, limite);
+
+	sprintf(filename1, "hist-%s.shp-%dx%d-%.2f-RG-Results.txt", datasetName, h1->qtd_colunas, h1->qtd_linhas, limite);
+
 	FILE *consulta;
 	FILE *resultadoconsultaNrafael;
 
 	consulta=fopen("consulta.txt", "r");
-	resultadoconsultaNrafael=fopen("resultadoconsultaNrafael.txt", "w+");
+	resultadoconsultaNrafael=fopen(filename1, "wb");
 
 	if (consulta == NULL || resultadoconsultaNrafael == NULL)
 		{
@@ -787,7 +756,7 @@ int main() {
 	double width = limitanteLargura;
 	double height = limitanteAltura;
 	int n = 0;
-
+fprintf(resultadoconsultaNrafael,"estimativaRG\n");
 	while(n < qtd){
 		n++;
 		Envelope query;
@@ -814,9 +783,10 @@ int main() {
 
 
 		int rhq = histogram_search_hist(h1, query);
-		printf("Query %d: e: %d\n", n, rhq);
+		
+		fprintf(resultadoconsultaNrafael,"%d\n",rhq);
 
-		fprintf(resultadoconsultaNrafael,"Query %d: e: %d\n", n, rhq);
+		// fprintf(resultadoconsultaNrafael,"Query %d: e: %d\n", n, rhq);
 
 
 
