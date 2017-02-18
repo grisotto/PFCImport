@@ -35,7 +35,7 @@ WindowLabel		2
 </table>
 <multiLayer>
 Graph1	1	1	2/17/17 5:49 PM
-geometry	638	10	616	546	
+geometry	638	10	616	546	active
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -126,7 +126,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 Graph2	1	1	2/17/17 5:57 PM
-geometry	1283	40	551	480	active
+geometry	1283	40	551	480	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5

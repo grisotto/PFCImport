@@ -563,7 +563,7 @@ histogram* metodoSimples(histogram *original, int modo, int xinicial,
 						origi->larguraMedia = origiProx->larguraMedia;
 
 					} else {
-						printf("OriginalProx == 0\n");
+						// printf("OriginalProx == 0\n");
 
 					}
 				} else {
@@ -756,7 +756,7 @@ int main() {
 	double width = limitanteLargura;
 	double height = limitanteAltura;
 	int n = 0;
-fprintf(resultadoconsultaNrafael,"estimativaRG\n");
+fprintf(resultadoconsultaNrafael,"estimativaRG-%.2f\n", limite);
 	while(n < qtd){
 		n++;
 		Envelope query;
