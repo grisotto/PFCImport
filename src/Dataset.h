@@ -7,7 +7,10 @@
 //const double limitanteLargura = 0.451583;
 //const double limitanteAltura = 0.390278 ;
 //AQUILIMITESELIMITANTE
-
+const int MaxLin = 150;
+const int MaxCol = 150;
+const double limitanteLargura = 0.301055;
+const double limitanteAltura = 0.260185;
 
 
 

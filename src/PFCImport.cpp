@@ -47,8 +47,8 @@ typedef struct Envelope Envelope;
 //
 // const char *datasetName = "municipios" ;
 //AQUIVAIOLIMITE
-
-
+const char *datasetName = "municipios" ;
+const double limite = 0.8;
 
 
 

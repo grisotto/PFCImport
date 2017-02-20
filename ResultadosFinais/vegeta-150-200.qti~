@@ -1,0 +1,218 @@
+QtiPlot 0.9.8 project file
+<scripting-lang>	muParser
+<windows>	3
+<table>
+Table1	30	5	2/19/17 10:54 PM
+geometry	0	0	711	764	
+header	1[X]	ARE - 150x150[Y]	STD - 150x150[Y]	ARE - 200x200[Y]	STD - 200x200[Y]
+ColWidth	100	148	100	100	150	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0	0
+HiddenColumn	0	0	0	0	0
+Comments						
+WindowLabel		2
+<data>
+0	0.5	0.7384874578809	8.31948916701	0.7392362411082	8.436800104305
+1	0.52	0.7485960314489	8.266921797138	0.7530887308124	8.408798011607
+2	0.54	0.7274429052789	8.316731088595	0.7383002620741	8.329913324879
+3	0.56	0.7384874578809	8.321892813537	0.7450393111194	8.361004724314
+4	0.58	0.6544365406215	7.966174489678	0.7521527517784	8.188449425868
+5	0.6	0.6254211905653	7.790306540824	0.747472856608	8.20864203142
+6	0.62	0.6533133657806	7.734571739922	0.7349307375515	8.23104464816
+7	0.64	0.6514414077125	7.741472728105	0.7345563459379	8.238500834497
+8	0.66	0.6242980157244	7.739063250808	0.72032946462	8.185816025296
+9	0.68	0.6392736802696	7.750941878249	0.7139648071883	8.270526948145
+10	0.7	0.625795582179	7.750832471419	0.7192062897791	8.338113935417
+11	0.72	0.6198053163609	7.728590815925	0.6432047922127	7.712302898616
+12	0.74	0.6158742044178	7.670436754188	0.6622987645077	7.777803288847
+13	0.76	0.6211156870086	7.602861566542	0.6611755896668	7.7433780742
+14	0.78	0.6162485960314	7.559824336583	0.6564956944964	7.792676305352
+15	0.8	0.6218644702359	7.553096318729	0.6224260576563	7.817640308942
+16	0.82	0.5979034069637	7.526583288585	0.6218644702359	7.835640624735
+17	0.84	0.5999625608386	7.537764920718	0.636840134781	7.653599414655
+18	0.86	0.5979034069637	7.500763694451	0.623736428304	7.679004102096
+19	0.88	0.6022089105204	7.507172836694	0.6242980157244	7.650169932753
+20	0.9	0.6042680643954	7.461103403653	0.6228004492699	7.657563842372
+</data>
+</table>
+<multiLayer>
+Graph1	1	1	2/19/17 10:56 PM
+geometry	0	892	740	648	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	722	585
+<PageGeometry>0.0068306	0.00833333	0.986339	0.975</PageGeometry>
+PlotTitle	Vegeta - Média erro	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	Limite(%)	%(?Y)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Cantarell	18	75	0	0	0
+ScaleFont0	Cantarell	15	75	0	0	0
+ScaleFont1	Cantarell	15	75	0	0	0
+ScaleFont2	Cantarell	15	75	0	0	0
+ScaleFont3	Cantarell	15	75	0	0	0
+AxisFont0	Cantarell	15	50	0	0	0
+AxisFont1	Cantarell	15	50	0	0	0
+AxisFont2	Cantarell	15	50	0	0	0
+AxisFont3	Cantarell	15	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#333333	#333333	#333333	#333333
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	Table1_1	Table1_ARE - 150x150	0	1	#000000	0	1	7	0	#000000	#000000	0	#000000	14	1	2	0	0	29	1
+curve	Table1_1	Table1_ARE - 200x200	2	1	#ff0000	0	1	7	2	#ff0000	#ff0000	0	#000000	14	1	2	0	0	29	1
+scale	0	0.58	0.76	0	10	5	0	0
+scale	1	0.58	0.76	0	10	5	0	0
+scale	2	0.4	1	0	7	5	0	0
+scale	3	0.4	1	0	7	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.7410071942446</x>
+<y>0.75220956719818</y>
+<right>0.961151079136691</right>
+<bottom>0.725558086560364</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+\l(2)%(2)
+</Text>
+<Font>Cantarell	15	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+Graph2	1	1	2/19/17 10:57 PM
+geometry	711	0	732	625	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	4	7	712	558
+<PageGeometry>0.00552486	0.0121317	0.983425	0.967071</PageGeometry>
+PlotTitle	Vegeta - STD	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	0	1	0	
+AxesTitles	Limite(%)	%(?Y)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	4	5124	4
+AxesTitleDistance	2	-1	2	-1
+InvertedTitle	0	0	0	0
+TitleFont	Cantarell	17	75	0	0	0
+ScaleFont0	Cantarell	15	75	0	0	0
+ScaleFont1	Cantarell	15	75	0	0	0
+ScaleFont2	Cantarell	15	75	0	0	0
+ScaleFont3	Cantarell	15	75	0	0	0
+AxisFont0	Cantarell	15	50	0	0	0
+AxisFont1	Cantarell	15	50	0	0	0
+AxisFont2	Cantarell	15	50	0	0	0
+AxisFont3	Cantarell	15	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#333333	#333333	#333333	#333333
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	Table1_1	Table1_STD - 200x200	2	1	#ff0000	0	1	7	2	#ff0000	#ff0000	0	#000000	14	1	2	0	0	29	1
+curve	Table1_1	Table1_STD - 150x150	2	1	#00ff00	0	1	7	3	#00ff00	#00ff00	0	#000000	14	1	2	0	0	29	1
+scale	0	7.4	8.6	0	7	5	0	0
+scale	1	7.4	8.6	0	7	5	0	0
+scale	2	0.4	1	0	7	5	0	0
+scale	3	0.4	1	0	7	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.78335949764521</x>
+<y>8.5945823927765</y>
+<right>0.973626373626374</right>
+<bottom>8.4293453724605</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+\l(2)%(2)
+</Text>
+<Font>Cantarell	15	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<open>1</open>
