@@ -43,12 +43,13 @@ struct Envelope {
 
 typedef struct Envelope Envelope;
 
-//const limite = 0.8;
+//const double limite = 0.8;
+//
+// const char *datasetName = "municipios" ;
 //AQUIVAIOLIMITE
 
-const double limite = 0.8;
 
- const char *datasetName = "municipios" ;
+
 
 
 
@@ -378,14 +379,14 @@ histogram* metodoSimples(histogram *original, int modo, int xinicial,
 			celula *origi = GET_CELL(original, x, xinicial);
 
 			somaMedias += origi->alturaMedia;
-//			if (origi->alturaMedia < epsilon){
-////				printf("col: %d lin: %d tem alturaZero: %f\n", x,xinicial, origi->alturaMedia);
-//				contCelzero++;
-//			}
+// 			if (origi->alturaMedia < epsilon){
+// //				printf("col: %d lin: %d tem alturaZero: %f\n", x,xinicial, origi->alturaMedia);
+// 				contCelzero++;
+// 			}
 
 		}
 //		 printf("Antes somaMedias: %f\n", somaMedias);
-//		somaMedias = somaMedias / ((original->qtd_colunas - contCelzero) == 0 ? 1 : (original->qtd_colunas - contCelzero));
+		// somaMedias = somaMedias / ((original->qtd_colunas - contCelzero) == 0 ? 1 : (original->qtd_colunas - contCelzero));
 
 		somaMedias = somaMedias / original->qtd_colunas;
 
@@ -492,12 +493,12 @@ histogram* metodoSimples(histogram *original, int modo, int xinicial,
 			celula *origi = GET_CELL(original, yinicial, y);
 
 			somaMedias += origi->larguraMedia;
-//			if (origi->alturaMedia == 0) contCelzero++;
+			// if (origi->alturaMedia == 0) contCelzero++;
 		}
 	//	printf("Antes somaMedias: %f\n", somaMedias);
-//		somaMedias = somaMedias
-//				/ ((original->qtd_linhas - contCelzero) == 0 ?
-//						1 : (original->qtd_linhas - contCelzero));
+		// somaMedias = somaMedias
+		// 		/ ((original->qtd_linhas - contCelzero) == 0 ?
+		// 				1 : (original->qtd_linhas - contCelzero));
 
 		somaMedias = somaMedias / original->qtd_linhas;
 
@@ -649,7 +650,7 @@ int main() {
 //	FILE * fp;
 //	fp = fopen("file.txt", "w+");
 //	printCelulaFile(h1, fp);
-	printCelula(h1);
+	// printCelula(h1);
 
 	printf("\ninicio\n");
 
@@ -704,7 +705,9 @@ int main() {
 
 	ValidaQtdObjetos(h1);
 
-	print_hist(h1, 'D');
+	printf("%dx%d\n",h1->qtd_colunas,h1->qtd_linhas);
+
+	// print_hist(h1, 'D');
 
 
 	/*
@@ -717,7 +720,7 @@ int main() {
 
 	// sprintf(filename, "hist-%s.shp-%dx%d-%.2f-RG.geojson", datasetName, MaxX, MaxY, limite);
 
-	sprintf(filename1, "hist-%s.shp-%dx%d-%.2f-RG-Results.txt", datasetName, h1->qtd_colunas, h1->qtd_linhas, limite);
+	sprintf(filename1, "hist-%s.shp-%.2f-%dx%d-RG-Results.txt", datasetName, limite, h1->qtd_colunas, h1->qtd_linhas);
 
 	FILE *consulta;
 	FILE *resultadoconsultaNrafael;
@@ -737,7 +740,7 @@ int main() {
 //	double height = limitanteAltura;
 
 	int n = 0;
-	fprintf(resultadoconsultaNrafael,"estimativaRG-%.2f\n", limite);
+	fprintf(resultadoconsultaNrafael,"estimativaRG-%.2f-%dx%d\n", limite, h1->qtd_colunas, h1->qtd_linhas);
 	while(n < qtd){
 		n++;
 		Envelope query;
