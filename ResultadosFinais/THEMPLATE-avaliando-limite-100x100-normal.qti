@@ -1,0 +1,122 @@
+QtiPlot 0.9.8 project file
+<scripting-lang>	muParser
+<windows>	2
+<table>
+ARE	53	14	2/23/17 5:22 PM
+geometry	0	0	750	734	
+header	Limite[X]	alertas[Y]	charminar[Y]	Crops[Y]	elevcontour[Y]	hidrografia[Y]	hydroindland[Y]	municipios[Y]	Railroads[Y]	railways[Y]	Rivers[Y]	roads[Y]	rodovia[Y]	vegeta[Y]
+ColWidth	100	100	100	100	114	100	100	100	100	100	100	100	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+HiddenColumn	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Comments															
+WindowLabel		0
+<data>
+0	0.5													
+1	0.51													
+2	0.52													
+3	0.53													
+4	0.54													
+5	0.55													
+6	0.56													
+7	0.57													
+8	0.58													
+9	0.59													
+10	0.6													
+11	0.61													
+12	0.62													
+13	0.63													
+14	0.64													
+15	0.65													
+16	0.66													
+17	0.67													
+18	0.68													
+19	0.69													
+20	0.7													
+21	0.71													
+22	0.72													
+23	0.73													
+24	0.74													
+25	0.75													
+26	0.76													
+27	0.77													
+28	0.78													
+29	0.79													
+30	0.8													
+31	0.81													
+32	0.82													
+33	0.83													
+34	0.84													
+35	0.85													
+36	0.86													
+37	0.87													
+38	0.88													
+39	0.89													
+40	0.9													
+41	0.91													
+42	0.92													
+43	1	0.093679												
+</data>
+</table>
+<table>
+STD	53	14	2/23/17 5:30 PM
+geometry	1140	-1	750	734	active
+header	Limite[X]	alertas[Y]	charminar[Y]	Crops[Y]	elevcontour[Y]	hidrografia[Y]	hydroindland[Y]	municipios[Y]	Railroads[Y]	railways[Y]	Rivers[Y]	roads[Y]	rodovia[Y]	vegeta[Y]
+ColWidth	100	100	100	100	114	100	100	100	100	100	100	100	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+HiddenColumn	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Comments															
+WindowLabel		0
+<data>
+0	0.5													
+1	0.51													
+2	0.52													
+3	0.53													
+4	0.54													
+5	0.55													
+6	0.56													
+7	0.57													
+8	0.58													
+9	0.59													
+10	0.6													
+11	0.61													
+12	0.62													
+13	0.63													
+14	0.64													
+15	0.65													
+16	0.66													
+17	0.67													
+18	0.68													
+19	0.69													
+20	0.7													
+21	0.71													
+22	0.72													
+23	0.73													
+24	0.74													
+25	0.75													
+26	0.76													
+27	0.77													
+28	0.78													
+29	0.79													
+30	0.8													
+31	0.81													
+32	0.82													
+33	0.83													
+34	0.84													
+35	0.85													
+36	0.86													
+37	0.87													
+38	0.88													
+39	0.89													
+40	0.9													
+41	0.91													
+42	0.92													
+43	1	13.572387												
+</data>
+</table>
+<open>1</open>

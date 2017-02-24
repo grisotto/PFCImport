@@ -47,8 +47,8 @@ typedef struct Envelope Envelope;
 //
 // const char *datasetName = "municipios" ;
 //AQUIVAIOLIMITE
-const char *datasetName = "municipios" ;
-const double limite = 0.8;
+const char *datasetName = "vegeta" ;
+const double limite = 0.80;
 
 
 
@@ -378,24 +378,26 @@ histogram* metodoSimples(histogram *original, int modo, int xinicial,
 		for (int x = 0; x < original->qtd_colunas; ++x) {
 			celula *origi = GET_CELL(original, x, xinicial);
 
-			somaMedias += origi->alturaMedia;
+			somaMedias = somaMedias + (origi->alturaMedia * origi->card);
 // 			if (origi->alturaMedia < epsilon){
 // //				printf("col: %d lin: %d tem alturaZero: %f\n", x,xinicial, origi->alturaMedia);
 // 				contCelzero++;
 // 			}
 
 		}
-//		 printf("Antes somaMedias: %f\n", somaMedias);
+		 printf("Antes somaMedias: %f\n", somaMedias);
 		// somaMedias = somaMedias / ((original->qtd_colunas - contCelzero) == 0 ? 1 : (original->qtd_colunas - contCelzero));
 
 		somaMedias = somaMedias / original->qtd_colunas;
-
-//		printf("Dps somaMedias: %f\nlimitanteAltura * limite:%f\n", somaMedias, limitanteAltura * limite);
 		celula *origi = GET_CELL(original, 0, xinicial);
+		printf("yfim:%f - yini:%f = %f. Qts vezes o limitanteAltura:%f\n", origi->yfim, origi->yini, origi->yfim - origi->yini, (origi->yfim - origi->yini) / limitanteAltura );
+		printf("Dps somaMedias: %f\nlimitanteAltura:%f\n", somaMedias, limitanteAltura);
+
+
 		//Verifico se a soma das medias ficou => 80% da comprimento da dimensão da celula
 //		if (somaMedias >= (limitanteAltura * limite) || somaMedias < epsilon) {
-		if (somaMedias >= ((fabs(fabs(origi->yfim) - fabs(origi->yini))) * limite) || somaMedias < epsilon) {
-
+		if (somaMedias >= (((origi->yfim) - (origi->yini))) || somaMedias < epsilon) {
+			printf("Entrou\n");
 
 			for (int k = 0; k < original->qtd_colunas; ++k) {
 
@@ -492,10 +494,10 @@ histogram* metodoSimples(histogram *original, int modo, int xinicial,
 		for (int y = 0; y < original->qtd_linhas; ++y) {
 			celula *origi = GET_CELL(original, yinicial, y);
 
-			somaMedias += origi->larguraMedia;
+			somaMedias = somaMedias +  (origi->larguraMedia * origi->card);
 			// if (origi->alturaMedia == 0) contCelzero++;
 		}
-	//	printf("Antes somaMedias: %f\n", somaMedias);
+//		printf("Antes somaMedias: %f\n", somaMedias);
 		// somaMedias = somaMedias
 		// 		/ ((original->qtd_linhas - contCelzero) == 0 ?
 		// 				1 : (original->qtd_linhas - contCelzero));
@@ -513,7 +515,7 @@ histogram* metodoSimples(histogram *original, int modo, int xinicial,
 
 		//Verifico se a soma das medias ficou >> 80% da comprimento da dimensão da celula
 //		if (somaMedias >= (limitanteLargura * limite) || somaMedias < epsilon) {
-		if (somaMedias >= ((fabs(fabs(origi->xfim) - fabs(origi->xini))) * limite) || somaMedias < epsilon) {
+		if ((somaMedias >= (origi->xfim - origi->xini)) || somaMedias < epsilon) {
 
 			for (int k = 0; k < original->qtd_linhas; ++k) {
 
@@ -707,7 +709,7 @@ int main() {
 
 	printf("%dx%d\n",h1->qtd_colunas,h1->qtd_linhas);
 
-	// print_hist(h1, 'D');
+	 print_hist(h1, 'D');
 
 
 	/*
