@@ -1,0 +1,1004 @@
+QtiPlot 0.9.8 project file
+<scripting-lang>	muParser
+<windows>	12
+<table>
+ARE	53	5	2/23/17 5:22 PM
+geometry	1568	892	1047	734	minimized	
+header	Limite[X]	elevcontour[Y]	municipios[Y]	railways[Y]	vegeta[Y]
+ColWidth	100	114	100	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0	0
+HiddenColumn	0	0	0	0	0
+Comments						
+WindowLabel		0
+<data>
+0	0.5	0.9997650444947	0.9956718335229	0.9899886116575	0.9969652110523
+1	0.51	0.9997650444947	0.9957602663535	0.9908996790558	0.9996006262872
+2	0.52	0.9997650444947	0.9949651466046	0.9890775442592	0.9996006262872
+3	0.53	0.9997650444947	0.9982332827042	0.9890775442592	0.9996006262872
+4	0.54	0.9997650444947	0.9982332827042	0.9881716533803	0.9996006262872
+5	0.55	0.9997650444947	0.9982332827042	0.9827104255099	0.9996006262872
+6	0.56	0.9997650444947	0.9973943344033	0.9808882907133	0.9996006262872
+7	0.57	0.9997650444947	0.9960693933973	0.9890775442592	0.9994409896195
+8	0.58	1	0.9965111696871	0.9972667978052	0.9994409896195
+9	0.59	1	0.9961578262279	0.9972667978052	0.9994409896195
+10	0.6	1	0.9963785204412	0.9954498395279	0.9994409896195
+11	0.61	1	0.9969525581136	0.9963609069262	0.9994409896195
+12	0.62	1	0.9964669532718	0.9972667978052	0.9994409896195
+13	0.63	1	0.9969083416983	0.9972667978052	0.9994409896195
+14	0.64	1	0.9970852073595	0.9954498395279	0.9994409896195
+15	0.65	1	0.9974385508186	0.9954498395279	0.9994409896195
+16	0.66	1	0.9987634918246	0.9954498395279	0.9994409896195
+17	0.67	1	0.9985866261634	1	0.9994409896195
+18	0.68	1	0.9965549982391	1	0.9994409896195
+19	0.69	1	0.9974827672339	0.9936277047313	0.9994409896195
+20	0.7	0.9998531528092	0.9974827672339	0.9936277047313	0.9982829186697
+21	0.71	0.9998531528092	0.998012588491	0.9927218138524	0.9998003131436
+22	0.72	0.9998531528092	0.9970852073595	0.9927218138524	0.9997204007952
+23	0.73	0.9998531528092	0.9979683720757	0.9927218138524	0.9987620167019
+24	0.74	0.9999706305618	0.9970852073595	0.9908996790558	0.9982430565101
+25	0.75	0.9999706305618	0.9977918942778	0.9927218138524	0.9969253488926
+26	0.76	0.9999706305618	0.9973943344033	0.9927218138524	0.9969253488926
+27	0.77	0.9999706305618	0.9977034614472	0.9927218138524	0.997005261241
+28	0.78	0.9999706305618	0.9979683720757	0.9918107464541	0.997883732986
+29	0.79	0.9999706305618	0.9977918942778	0.9918107464541	0.9986023800342
+30	0.8	0.9999706305618	0.996687647485	0.9918107464541	0.9990814780663
+31	0.81	0.9999706305618	0.9967760803156	0.9863495185837	0.9992413027631
+32	0.82	0.9999706305618	0.9966434310697	0.9863495185837	1
+33	0.83	0.9999706305618	0.9969525581136	0.9863495185837	0.9992811649227
+34	0.84	0.9999706305618	0.9973059015727	0.9863495185837	0.9992811649227
+35	0.85	0.9999706305618	0.9979683720757	0.9863495185837	0.9999599498113
+36	0.86	0.9999706305618	0.9996466565408	0.9863495185837	0.9994009394308
+37	0.87	0.9999706305618	0.9994259623276	0.9863495185837	0.9990416159067
+38	0.88	0.9999706305618	0.9994701787429	0.9863495185837	0.9982030063213
+39	0.89	0.9999706305618	0.9994701787429	0.9863495185837	0.9982030063213
+40	0.9	0.9999706305618	0.9996466565408	0.9863495185837	0.9981631441617
+41	0.91	0.9999706305618	0.9997350893715	0.9863495185837	0.9979235951456
+42	0.92	0.9999706305618	0.9997350893715	0.9863495185837	0.9978436827972
+43	1	0.9999706305618	1	0.9863495185837	0.9979634573053
+</data>
+</table>
+<table>
+STD	53	5	2/23/17 5:30 PM
+geometry	1372	892	853	763	minimized	
+header	Limite[X]	elevcontour[Y]	municipios[Y]	railways[Y]	vegeta[Y]
+ColWidth	100	149	141	145	169	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0	0
+HiddenColumn	0	0	0	0	0
+Comments						
+WindowLabel		0
+<data>
+0	0.5	0.9999787076988	0.9792548733505	0.9673239600635	0.9907280820642
+1	0.51	0.9999787076988	0.9806959336859	0.9678523965729	0.9915251151147
+2	0.52	0.9999787076988	0.9800972157127	0.9699662999766	0.9915251151147
+3	0.53	0.9999787076988	0.9812443343642	0.9699662999766	0.9915251151147
+4	0.54	0.9999787076988	0.9812443343642	0.9704601158689	0.9915251151147
+5	0.55	0.9999787076988	0.9812443343642	0.9466922754322	0.9915251151147
+6	0.56	0.9999787076988	0.9804978647634	0.9463948528584	0.9915251151147
+7	0.57	0.9999787076988	0.9801059103871	0.9699662999766	0.9911905998044
+8	0.58	0.9999468101937	0.9809336395272	0.9719481729363	0.9911905998044
+9	0.59	0.9999855560399	0.9821127414707	0.9719481729363	0.9911905998044
+10	0.6	0.9999855560399	0.9826219293606	0.9718145688278	0.9911905998044
+11	0.61	0.9999855560399	0.9823001878532	0.9722380419208	0.9911905998044
+12	0.62	0.9999855560399	0.9829792399902	0.9737300331492	0.9911905998044
+13	0.63	0.9999855560399	0.9832804690065	0.9737300331492	0.9911905998044
+14	0.64	0.9999855560399	0.9860062976047	0.9729351752551	0.9911905998044
+15	0.65	0.9999855560399	0.9864894593075	0.9729351752551	0.9911905998044
+16	0.66	0.9999855560399	0.9868148444811	0.9732406235173	0.9911905998044
+17	0.67	0.9999855560399	0.9864102625844	0.986058592247	0.9911905998044
+18	0.68	0.9999855560399	0.9859666028498	0.986058592247	0.9911905998044
+19	0.69	0.9999855560399	0.9859666028498	0.9995697601499	0.9911905998044
+20	0.7	0.9999855560399	0.9873022474885	0.9995697601499	0.9911905998044
+21	0.71	1	0.9854364205024	0.9996037513012	0.9923640701079
+22	0.72	1	0.9892117599114	0.9996037513012	0.9929571136232
+23	0.73	1	0.9885505983681	0.9996037513012	0.9939312778735
+24	0.74	0.9999700372281	0.989135667052	0.999720674567	0.9946150471253
+25	0.75	0.9999700372281	0.9890786215058	1	0.9940414830718
+26	0.76	0.9999700372281	0.9891457112324	1	0.9934519378308
+27	0.77	0.9999700372281	0.9901813992461	1	0.9934519378308
+28	0.78	0.9999700372281	0.9901384078409	0.9996374277196	0.9921549191844
+29	0.79	0.9999700372281	0.9878245448651	0.9996374277196	0.9944762248964
+30	0.8	0.9999700372281	0.9888449449038	0.9996374277196	0.995680759111
+31	0.81	0.9999700372281	0.9906330981806	0.9996374277196	0.9972764692097
+32	0.82	0.9999700372281	0.9920739078935	0.9996374277196	0.9965542189408
+33	0.83	0.9999700372281	0.9927029126369	0.9996374277196	0.9985303424732
+34	0.84	0.9999700372281	0.9936420916934	0.9996374277196	0.9981557021479
+35	0.85	0.9999700372281	0.9980738115388	0.9996374277196	0.9984339200933
+36	0.86	0.9999700372281	0.9979954823552	0.9996374277196	0.9996536708453
+37	0.87	0.9999700372281	0.9970090127529	0.9996374277196	0.9996426981161
+38	0.88	0.9999700372281	0.9970090127529	0.9996374277196	0.9986500293329
+39	0.89	0.9999700372281	0.9983329552467	0.9996374277196	0.9990597097499
+40	0.9	0.9999700372281	0.9986757490476	0.9996374277196	0.9994641714298
+41	0.91	0.9999700372281	0.9986757490476	0.9996374277196	0.9995457022486
+42	0.92	0.9999700372281	0.9986757490476	0.9996374277196	0.9989261444905
+43	1	0.9999700372281	1	0.9860206669347	1
+</data>
+</table>
+<multiLayer>
+Graph1	1	1	2/23/17 11:51 PM
+geometry	1176	892	565	480	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	4	5	547	417
+<PageGeometry>0.00784314	0.0121951	1.07255	1.01707</PageGeometry>
+PlotTitle	ARE - Vegeta - IgnZeros	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	0	1	0	
+AxesTitles	Limite	%(?Y)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	4	5124	4
+AxesTitleDistance	2	-1	2	-1
+InvertedTitle	0	0	0	0
+TitleFont	Cantarell	13	75	0	0	0
+ScaleFont0	Cantarell	11	75	0	0	0
+ScaleFont1	Cantarell	11	75	0	0	0
+ScaleFont2	Cantarell	11	75	0	0	0
+ScaleFont3	Cantarell	11	75	0	0	0
+AxisFont0	Cantarell	11	50	0	0	0
+AxisFont1	Cantarell	11	50	0	0	0
+AxisFont2	Cantarell	11	50	0	0	0
+AxisFont3	Cantarell	11	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#333333	#333333	#333333	#333333
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	ARE_Limite	ARE_vegeta	0	1	#000000	0	1	7	0	#000000	#000000	0	#000000	14	1	2	0	0	52	1
+scale	0	0.9965	1.0005	0	9	5	0	0
+scale	1	0.9965	1.0005	0	9	5	0	0
+scale	2	0.4	1.1	0	8	5	0	0
+scale	3	0.4	1.1	0	8	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.41754385964912</x>
+<y>5.3193311036789</y>
+<right>0.557423580786026</right>
+<bottom>5.31770897832817</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+</Text>
+<Font>Cantarell	11	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+Graph2	1	1	2/23/17 11:53 PM
+geometry	980	892	615	480	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	-9	-4	597	417
+<PageGeometry>-0.0176471	-0.0097561	1.17059	1.01707</PageGeometry>
+PlotTitle	ARE - elevcontour - IgnZeros	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	0	1	0	
+AxesTitles	Limite	%(?Y)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	4	5124	4
+AxesTitleDistance	2	-1	2	-1
+InvertedTitle	0	0	0	0
+TitleFont	Cantarell	13	75	0	0	0
+ScaleFont0	Cantarell	11	75	0	0	0
+ScaleFont1	Cantarell	11	75	0	0	0
+ScaleFont2	Cantarell	11	75	0	0	0
+ScaleFont3	Cantarell	11	75	0	0	0
+AxisFont0	Cantarell	11	50	0	0	0
+AxisFont1	Cantarell	11	50	0	0	0
+AxisFont2	Cantarell	11	50	0	0	0
+AxisFont3	Cantarell	11	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#333333	#333333	#333333	#333333
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	ARE_Limite	ARE_elevcontour	0	1	#000000	0	1	7	0	#000000	#000000	0	#000000	14	1	2	0	0	52	1
+scale	0	0.99975	1.00005	0	7	5	0	0
+scale	1	0.99975	1.00005	0	7	5	0	0
+scale	2	0.4	1.1	0	8	5	0	0
+scale	3	0.4	1.1	0	8	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.80701754385965</x>
+<y>0.068089698996656</y>
+<right>0.541929133858268</right>
+<bottom>0.0680977089783282</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+</Text>
+<Font>Cantarell	11	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+Graph3	1	1	2/23/17 11:54 PM
+geometry	784	892	651	547	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	633	484
+<PageGeometry>0.00980392	0.0121951	1.24118	1.18049</PageGeometry>
+PlotTitle	ARE - Municipios - IgnZeros	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	0	1	0	
+AxesTitles	Limite	%(?Y)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	4	5124	4
+AxesTitleDistance	2	-1	2	-1
+InvertedTitle	0	0	0	0
+TitleFont	Cantarell	15	75	0	0	0
+ScaleFont0	Cantarell	13	75	0	0	0
+ScaleFont1	Cantarell	13	75	0	0	0
+ScaleFont2	Cantarell	13	75	0	0	0
+ScaleFont3	Cantarell	13	75	0	0	0
+AxisFont0	Cantarell	13	50	0	0	0
+AxisFont1	Cantarell	13	50	0	0	0
+AxisFont2	Cantarell	13	50	0	0	0
+AxisFont3	Cantarell	13	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#333333	#333333	#333333	#333333
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	ARE_Limite	ARE_municipios	0	1	#000000	0	1	7	0	#000000	#000000	0	#000000	14	1	2	0	0	52	1
+scale	0	0.994	1.001	0	8	5	0	0
+scale	1	0.994	1.001	0	8	5	0	0
+scale	2	0.4	1.1	0	8	5	0	0
+scale	3	0.4	1.1	0	8	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.41754385964912</x>
+<y>2.5794648829431</y>
+<right>0.530925925925926</right>
+<bottom>2.57849608355091</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+</Text>
+<Font>Cantarell	13	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+Graph4	1	1	2/23/17 11:54 PM
+geometry	588	892	581	480	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	563	417
+<PageGeometry>0.00980392	0.0121951	1.10392	1.01707</PageGeometry>
+PlotTitle	ARE - railways - IgnZeros	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	0	1	0	
+AxesTitles	Limite	%(?Y)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	4	5124	4
+AxesTitleDistance	2	-1	2	-1
+InvertedTitle	0	0	0	0
+TitleFont	Cantarell	13	75	0	0	0
+ScaleFont0	Cantarell	11	75	0	0	0
+ScaleFont1	Cantarell	11	75	0	0	0
+ScaleFont2	Cantarell	11	75	0	0	0
+ScaleFont3	Cantarell	11	75	0	0	0
+AxisFont0	Cantarell	11	50	0	0	0
+AxisFont1	Cantarell	11	50	0	0	0
+AxisFont2	Cantarell	11	50	0	0	0
+AxisFont3	Cantarell	11	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#333333	#333333	#333333	#333333
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	ARE_Limite	ARE_railways	0	1	#000000	0	1	7	0	#000000	#000000	0	#000000	14	1	2	0	0	52	1
+scale	0	0.98	1.002	0	12	5	0	0
+scale	1	0.98	1.002	0	12	5	0	0
+scale	2	0.4	1.1	0	8	5	0	0
+scale	3	0.4	1.1	0	8	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.41754385964912</x>
+<y>0.19334949832776</y>
+<right>0.55210970464135</right>
+<bottom>0.192984520123839</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+</Text>
+<Font>Cantarell	11	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+Graph5	1	1	2/23/17 11:55 PM
+geometry	392	892	666	536	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	648	473
+<PageGeometry>0.00980392	0.0121951	1.27059	1.15366</PageGeometry>
+PlotTitle	STD - elevcontour - IgnZeros	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	0	1	0	
+AxesTitles	Limite	%(?Y)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	4	5124	4
+AxesTitleDistance	2	-1	2	-1
+InvertedTitle	0	0	0	0
+TitleFont	Cantarell	15	75	0	0	0
+ScaleFont0	Cantarell	12	75	0	0	0
+ScaleFont1	Cantarell	12	75	0	0	0
+ScaleFont2	Cantarell	12	75	0	0	0
+ScaleFont3	Cantarell	12	75	0	0	0
+AxisFont0	Cantarell	12	50	0	0	0
+AxisFont1	Cantarell	12	50	0	0	0
+AxisFont2	Cantarell	12	50	0	0	0
+AxisFont3	Cantarell	12	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#333333	#333333	#333333	#333333
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	STD_Limite	STD_elevcontour	0	1	#000000	0	1	7	0	#000000	#000000	0	#000000	14	1	2	0	0	52	1
+scale	0	0.99994	1.00001	0	8	5	0	0
+scale	1	0.99994	1.00001	0	8	5	0	0
+scale	2	0.4	1.1	0	8	5	0	0
+scale	3	0.4	1.1	0	8	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.41754385964912</x>
+<y>195.37559866221</y>
+<right>0.52818671454219</right>
+<bottom>195.374812834225</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+</Text>
+<Font>Cantarell	12	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+Graph6	1	1	2/23/17 11:56 PM
+geometry	196	892	547	480	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	529	417
+<PageGeometry>0.00980392	0.0121951	1.03725	1.01707</PageGeometry>
+PlotTitle	STD - Municipios - IgnZeros	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	0	1	0	
+AxesTitles	Limite	%(?Y)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	4	5124	4
+AxesTitleDistance	2	-1	2	-1
+InvertedTitle	0	0	0	0
+TitleFont	Cantarell	13	75	0	0	0
+ScaleFont0	Cantarell	11	75	0	0	0
+ScaleFont1	Cantarell	11	75	0	0	0
+ScaleFont2	Cantarell	11	75	0	0	0
+ScaleFont3	Cantarell	11	75	0	0	0
+AxisFont0	Cantarell	11	50	0	0	0
+AxisFont1	Cantarell	11	50	0	0	0
+AxisFont2	Cantarell	11	50	0	0	0
+AxisFont3	Cantarell	11	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#333333	#333333	#333333	#333333
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	STD_Limite	STD_municipios	0	1	#000000	0	1	7	0	#000000	#000000	0	#000000	14	1	2	0	0	52	1
+scale	0	0.975	1.005	0	7	5	0	0
+scale	1	0.975	1.005	0	7	5	0	0
+scale	2	0.4	1.1	0	8	5	0	0
+scale	3	0.4	1.1	0	8	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.41754385964912</x>
+<y>51.953177257525</y>
+<right>0.563863636363636</right>
+<bottom>51.8396284829721</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+</Text>
+<Font>Cantarell	11	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+Graph7	1	1	2/23/17 11:57 PM
+geometry	0	892	547	480	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	529	417
+<PageGeometry>0.00980392	0.0121951	1.03725	1.01707</PageGeometry>
+PlotTitle	STD - railways - IgnZeros	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	0	1	0	
+AxesTitles	Limite	%(?Y)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	4	5124	4
+AxesTitleDistance	2	-1	2	-1
+InvertedTitle	0	0	0	0
+TitleFont	Cantarell	13	75	0	0	0
+ScaleFont0	Cantarell	11	75	0	0	0
+ScaleFont1	Cantarell	11	75	0	0	0
+ScaleFont2	Cantarell	11	75	0	0	0
+ScaleFont3	Cantarell	11	75	0	0	0
+AxisFont0	Cantarell	11	50	0	0	0
+AxisFont1	Cantarell	11	50	0	0	0
+AxisFont2	Cantarell	11	50	0	0	0
+AxisFont3	Cantarell	11	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#333333	#333333	#333333	#333333
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	STD_Limite	STD_railways	0	1	#000000	0	1	7	0	#000000	#000000	0	#000000	14	1	2	0	0	52	1
+scale	0	0.94	1.01	0	8	5	0	0
+scale	1	0.94	1.01	0	8	5	0	0
+scale	2	0.4	1.1	0	8	5	0	0
+scale	3	0.4	1.1	0	8	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.41754385964912</x>
+<y>6.3866220735786</y>
+<right>0.563863636363636</right>
+<bottom>6.35417956656347</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+</Text>
+<Font>Cantarell	11	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+Graph8	1	1	2/23/17 11:58 PM
+geometry	848	0	547	480	hidden
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	529	417
+<PageGeometry>0.00927644	0.0115741	0.981447	0.965278</PageGeometry>
+PlotTitle	STD - vegeta - IgnZeros	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	0	1	0	
+AxesTitles	Limite	%(?Y)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	4	5124	4
+AxesTitleDistance	2	-1	2	-1
+InvertedTitle	0	0	0	0
+TitleFont	Cantarell	13	75	0	0	0
+ScaleFont0	Cantarell	11	75	0	0	0
+ScaleFont1	Cantarell	11	75	0	0	0
+ScaleFont2	Cantarell	11	75	0	0	0
+ScaleFont3	Cantarell	11	75	0	0	0
+AxisFont0	Cantarell	11	50	0	0	0
+AxisFont1	Cantarell	11	50	0	0	0
+AxisFont2	Cantarell	11	50	0	0	0
+AxisFont3	Cantarell	11	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#333333	#333333	#333333	#333333
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	STD_Limite	STD_vegeta	0	1	#000000	0	1	7	0	#000000	#000000	0	#000000	14	1	2	0	0	52	1
+scale	0	0.99	1.002	0	7	5	0	0
+scale	1	0.99	1.002	0	7	5	0	0
+scale	2	0.4	1.1	0	8	5	0	0
+scale	3	0.4	1.1	0	8	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.41754385964912</x>
+<y>52.379933110368</y>
+<right>0.563863636363636</right>
+<bottom>52.3312693498452</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+</Text>
+<Font>Cantarell	11	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+Graph9	1	1	3/6/17 5:11 PM
+geometry	914	6	741	600	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	723	534
+<PageGeometry>0.00682128	0.00905797	0.986357	0.967391</PageGeometry>
+PlotTitle	STD - IgnZeros	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	0	1	0	
+AxesTitles	Limite (%)	%(?Y)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	4	5124	4
+AxesTitleDistance	2	-1	2	-1
+InvertedTitle	0	0	0	0
+TitleFont	Cantarell	17	75	0	0	0
+ScaleFont0	Cantarell	14	75	0	0	0
+ScaleFont1	Cantarell	14	75	0	0	0
+ScaleFont2	Cantarell	14	75	0	0	0
+ScaleFont3	Cantarell	14	75	0	0	0
+AxisFont0	Cantarell	14	50	0	0	0
+AxisFont1	Cantarell	14	50	0	0	0
+AxisFont2	Cantarell	14	50	0	0	0
+AxisFont3	Cantarell	14	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#333333	#333333	#333333	#333333
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	STD_Limite	STD_elevcontour	0	1	#000000	0	1	7	0	#000000	#000000	0	#000000	14	1	2	0	0	52	1
+curve	STD_Limite	STD_municipios	2	1	#ff0000	0	1	7	2	#ff0000	#ff0000	0	#000000	14	1	2	0	0	52	1
+curve	STD_Limite	STD_railways	2	1	#00ff00	0	1	7	3	#00ff00	#00ff00	0	#000000	14	1	2	0	0	52	1
+curve	STD_Limite	STD_vegeta	2	1	#0000ff	0	1	7	4	#0000ff	#0000ff	0	#000000	14	1	2	0	0	52	1
+scale	0	0.94	1.01	0	8	5	0	0
+scale	1	0.94	1.01	0	8	5	0	0
+scale	2	0.4	1.1	0	8	5	0	0
+scale	3	0.4	1.1	0	8	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.89033280507132</x>
+<y>0.97408551068884</y>
+<right>1.07559429477021</right>
+<bottom>0.95562945368171</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+\l(2)%(2)
+\l(3)%(3)
+\l(4)%(4)
+</Text>
+<Font>Cantarell	14	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+Graph10	1	1	3/6/17 5:19 PM
+geometry	80	2	744	608	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	6	-7	726	542
+<PageGeometry>0.00815217	-0.0125	0.986413	0.967857</PageGeometry>
+PlotTitle	ARE - IgnZeros	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	0	1	0	
+AxesTitles	Limite (%)	%(?Y)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	4	5124	4
+AxesTitleDistance	2	-1	2	-1
+InvertedTitle	0	0	0	0
+TitleFont	Cantarell	17	75	0	0	0
+ScaleFont0	Cantarell	14	75	0	0	0
+ScaleFont1	Cantarell	14	75	0	0	0
+ScaleFont2	Cantarell	14	75	0	0	0
+ScaleFont3	Cantarell	14	75	0	0	0
+AxisFont0	Cantarell	14	50	0	0	0
+AxisFont1	Cantarell	14	50	0	0	0
+AxisFont2	Cantarell	14	50	0	0	0
+AxisFont3	Cantarell	14	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#333333	#333333	#333333	#333333
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	ARE_Limite	ARE_elevcontour	0	1	#000000	0	1	7	0	#000000	#000000	0	#000000	14	1	2	0	0	52	1
+curve	ARE_Limite	ARE_municipios	2	1	#ff0000	0	1	7	2	#ff0000	#ff0000	0	#000000	14	1	2	0	0	52	1
+curve	ARE_Limite	ARE_railways	2	1	#00ff00	0	1	7	3	#00ff00	#00ff00	0	#000000	14	1	2	0	0	52	1
+curve	ARE_Limite	ARE_vegeta	2	1	#0000ff	0	1	7	4	#0000ff	#0000ff	0	#000000	14	1	2	0	0	52	1
+scale	0	0.98	1.005	0	6	5	0	0
+scale	1	0.98	1.005	0	6	5	0	0
+scale	2	0.4	1.1	0	8	5	0	0
+scale	3	0.4	1.1	0	8	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.88167202572347</x>
+<y>0.99474358974359</y>
+<right>1.06961414790997</right>
+<bottom>0.988275058275058</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+\l(2)%(2)
+\l(3)%(3)
+\l(4)%(4)
+</Text>
+<Font>Cantarell	14	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<open>1</open>
