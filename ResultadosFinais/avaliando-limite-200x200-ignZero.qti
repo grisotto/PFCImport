@@ -267,7 +267,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 Graph3	1	1	3/7/17 3:01 AM
-geometry	588	892	750	648	minimized	
+geometry	1009	0	750	648	active
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -364,7 +364,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 Graph4	1	1	3/7/17 3:02 AM
-geometry	1009	0	674	571	active
+geometry	1009	0	674	571	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
